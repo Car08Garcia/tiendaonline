@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1.0"
+		/>
+		<title>MARKETEC</title>
+		<link rel="stylesheet" href="style.css" />
+	</head>
+	<body>
+		
+		<header>
+			
+			<div>
+				<img class="logo"  src="/Imagenes/logo.jpg" alt="Logo de la marca" >
+			</div>
+			<nav>
+			   <ul class="nav-links">
+                    <li class="menu"><a class="menu1" href="/index.html">Inicio</a></li>
+                    <li class="menu"><a class="menu1" href="/Categorias.html">Categorias</a></li>
+                    <li class="menu"><a class="menu1" href="#">Ofertas</a></li>
+					<li class="menu"><a class="menu1" href="#">Vender</a></li>
+					<li class="menu"><a class="menu1"href="#">Ayuda</a></li>
+			   </ul>            
+			</nav>
+			<div class="container-icon">
+				<svg
+					xmlns="http://www.w3.org/2000/svg"
+					fill="none"
+					viewBox="0 0 24 24"
+					stroke-width="1.5"
+					stroke="currentColor"
+					class="icon-cart"
+				>
+					<path
+						stroke-linecap="round"
+						stroke-linejoin="round"
+						d="M15.75 10.5V6a3.75 3.75 0 10-7.5 0v4.5m11.356-1.993l1.263 12c.07.665-.45 1.243-1.119 1.243H4.25a1.125 1.125 0 01-1.12-1.243l1.264-12A1.125 1.125 0 015.513 7.5h12.974c.576 0 1.059.435 1.119 1.007zM8.625 10.5a.375.375 0 11-.75 0 .375.375 0 01.75 0zm7.5 0a.375.375 0 11-.75 0 .375.375 0 01.75 0z"
+					/>
+				</svg>
+				<div class="count-products">
+					<span id="contador-productos">0</span>
+				</div>
+
+				<div class="container-cart-products hidden-cart">
+					<div class="cart-product">
+						<div class="info-cart-product">
+                            <span class="cantidad-producto-carrito">0</span>
+                            <p class="titulo-producto-carrito"></p>
+                            <span class="precio-producto-carrito"></span>
+                        </div>
+						<svg
+							xmlns="http://www.w3.org/2000/svg"
+							fill="none"
+							viewBox="0 0 24 24"
+							stroke-width="1.5"
+							stroke="currentColor"
+							class="icon-close"
+						>
+							<path
+								stroke-linecap="round"
+								stroke-linejoin="round"
+								d="M6 18L18 6M6 6l12 12"
+							/>
+						</svg>
+					</div>
+                    <div class="cart-total">
+                        <h3>Total:</h3>
+                        <span class="total-pagar">$0.00</span>
+                    </div>
+				</div>
+			</div>
+		</header>
+
+		<br> <br>
+		<section class="contenido">
+			<h3>Categorias</h3>
+		<div class="container-items">
+			<div class="item">
+				<figure>
+					<img
+						src="/Categorias/destacada-2.jpg"
+						alt="Producto"
+					/>
+				</figure>
+				<div class="info-product">
+					<h2>Restaurantes</h2>
+					<button><h5>Ir</h5></button>
+				</div>
+			</div>
+			<div class="item">
+				<figure>
+					<img
+						src="/Categorias/f64481559201ca09153d4d64de99eb38.jpg"
+						alt="Producto"
+					/>
+				</figure>
+				<div class="info-product">
+					<h2>Cosmeticos</h2>
+					<button><h5>Ir</h5></button>
+				</div>
+			</div>
+			<div class="item">
+				<figure>
+					<img
+						src="/Categorias/f1280x720-592943_724618_5050.jpg"
+						alt="Producto"
+					/>
+				</figure>
+				<div class="info-product">
+					<h2>Tiendas</h2>
+					<button><h5>Ir</h5></button>
+				</div>
+			</div>
+			<div class="item">
+				<figure>
+					<img
+						src="/Categorias/L57W7VHU65GKNPGM53CRC244TY.jpg"
+						alt="Producto"
+					/>
+				</figure>
+				<div class="info-product">
+					<h2>Papelerias</h2>
+					<button><h5>Ir</h5></button>
+				</div>
+			</div>
+				<div class="item">
+					<figure>
+						<img
+							src="/Categorias/download.jpg"
+							alt="Producto"
+						/>
+					</figure>
+					<div class="info-product">
+						<h2>Pastelerias</h2>
+						<button><h5>Ir</h5></button>
+					</div>
+				</div>
+		</section>
+
+		<section class="contenido">
+			<h3>Informacion</h3>
+		<div class="container-items">
+			<div class="item">
+				<figure>
+					<img
+						class="pagos"
+						src="/Imagenes/carduse_card_payment_5122.png"
+						alt="Producto"
+					/>
+				</figure>
+				<div class="info-product">
+					<h2 class="info">Elige como pagar, paga con tarjeta, debito o efectivo.</h2>
+					<p class="price">Como pagar con MarkeTec</p>
+					<button>Ir...</button>
+				</div>
+			</div>
+			<div class="item">
+				<figure>
+					<img
+						class="pagos"
+						src="/Imagenes/product_delivery_icon_152013.png"
+						alt="Producto"
+					/>
+				</figure>
+				<div class="info-product">
+					<h2 class="info">Envio gratis desde $50, tienes envio gratis en millones de productos seleccionados.</h2>
+					<p class="price">Conoce mas sobre este beneficio</p>
+					<button>Conoce...</button>
+				</div>
+			</div>
+			<div class="item">
+				<figure>
+					<img
+						class="pagos"
+						src="/Imagenes/firewallshield_114494.png"
+						alt="Producto"
+					/>
+				</figure>
+				<div class="info-product">
+					<h2 class="info">Seguridad, de principio a fin porque siempre estas protegido.</h2>
+					<p class="price">¿Como te protegemos?</p>
+					<button>Visita... </button>
+				</div>
+			</div>
+		</section>
+<br><br><br>
+
+		<footer class="footer">
+			<div class="container">
+				<div class="row">
+					<div class="footer-col">
+						<h4>Empresa</h4>
+						<ul>
+							<li><a href="#">Acerca de nosotros</a></li>
+							<li><a href="#">Nuestros servicios</a></li>
+							<li><a href="#">Politicas de privacidad</a></li>
+						</ul>
+					</div>
+					<div class="footer-col">
+						<h4>Podemos Ayudarte</h4>
+						<ul>
+							<li><a href="#">Reembolsos</a></li>
+							<li><a href="#">Metodos de pago</a></li>
+						</ul>
+					</div>
+					<div class="footer-col">
+						<h4>Siganos</h4>
+						<div class="social-links">
+							<a href="#"><i class="fab fa-facebook-f"></i></a>
+							<a href="#"><i class="fab fa-twitter"></i></a>
+							<a href="#"><i class="fab fa-instagram"></i></a>
+							<a href="#"><i class="fab fa-linkedin-in"></i></a>
+						</div>
+					</div>
+				</div>
+			</div>
+	   </footer>
+
+        <script src="index.js"></script>
+	</body>
+</html>
